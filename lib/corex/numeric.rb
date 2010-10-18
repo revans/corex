@@ -33,4 +33,12 @@ class Numeric
     self * (364.25 * 24 * 3600)
   end
   alias_method :years, :year
+  
+  def to_bd
+    ::BigDecimal.new(self.to_s)
+  end
+  
+  def round_to(num=2)
+    self.to_bd.round(num)
+  end
 end
