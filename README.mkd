@@ -1,17 +1,16 @@
-= corex
+# CoreX
 
-Core Extensions that I use often in Ruby libraries.
+A bunch of different extensions that I use throughout other Ruby libraries. Feel 
+free to fork and add your own in there. 
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+## Using
 
-== Copyright
+You can require lib/corex.rb to get all the extensions, or just load what you 
+need.
 
-Copyright (c) 2010 Robert R Evans. See LICENSE for details.
+## Contribute
+
+Would love if others add in their core extensions that they use often. So, if 
+you are inclined, make a fork, add your stuff and submit a pull request.
+
+Thanks!
