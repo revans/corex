@@ -1,6 +1,6 @@
 = corex
 
-Description goes here.
+Core Extensions that I use often in Ruby libraries.
 
 == Note on Patches/Pull Requests
  
